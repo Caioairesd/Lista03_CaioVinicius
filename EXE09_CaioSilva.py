@@ -4,13 +4,13 @@ salario = float (input("Insira seu salário:"))
 
 if salario <= 2259.20:
     print("Você não precisa pagar.")
-elif salario == 2259.21 and salario <= 2826.65:
+elif salario >= 2259.21 and salario <= 2826.65:
     aumento = salario *0.075
     print("Você deve pagar: R$",round(aumento,2))
-elif salario == 2826.66 and salario <= 3751.05:
+elif salario >= 2826.66 and salario <= 3751.05:
     aumento = salario *0.15
     print("Você deve pagar: R$",round(aumento,2))
-elif salario == 3751.06 and salario <= 4664.68:
+elif salario >= 3751.06 and salario <= 4664.68:
     aumento = salario *0.225
     print("Você deve pagar: R$",round(aumento,2))
 elif salario > 4664.69:
