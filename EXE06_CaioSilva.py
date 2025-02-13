@@ -5,12 +5,15 @@
 
 idade = int(input("Olá, qual a sua idade?"))
 
-if idade == Votar:
-    print("Você pode votar!")
-elif idade == 18:
-    print("Você pode aprender a dirigir!")
-elif idade == 14:
-    print("Você pode comprar um bilhete de loteria")
+if idade >= 18:
+        print("Você pode aprender a dirigir!")
 else:
+    if idade >= 16:
+        print("Você pode votar!")
+if idade == 14:
+    print("Você pode comprar um bilhete de loteria")
+elif idade < 14:
     print("Você pode fazer doces ou travessuras")
+
+    print('Caio Vinicius Aires da Silva')
 

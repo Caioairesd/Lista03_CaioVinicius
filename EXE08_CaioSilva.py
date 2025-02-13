@@ -4,7 +4,10 @@
 
 velocidade = int(input("Qual velocidade você estava? (km/h)"))
 if velocidade > 80:
-    multa = velocidade * 5
+    
+    #Você pode alterar a velocidade permitida alterando a variável (acima).
+    acima = velocidade - 80
+    multa = acima * 5
     print("Você foi multado em:R$",multa,"Por estar com:", velocidade, "KM/H")  
 else:
     print("Você estava dentro do limite permitido, Parabéns!")

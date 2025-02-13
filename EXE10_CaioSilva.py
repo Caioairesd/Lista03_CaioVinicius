@@ -14,9 +14,9 @@ SalMaior = 15/100
 
 if salario > 1250.00:
     aumento = salario * SalMenor
-    print("Seu salário aumentou: R$",(round.aumento,2),", e está em: R$",salario + aumento)
+    print("Seu salário aumentou: R$",round(aumento,2),", e está em: R$",salario + aumento)
 else:
     aumento = salario * SalMaior
-    print("Seu salário aumentou: R$",aumento,", e está em: R$",salario + aumento)
+    print("Seu salário aumentou: R$",round(aumento,2),", e está em: R$",salario + aumento)
 
 print("Caio Vinicius Aires da Silva")
